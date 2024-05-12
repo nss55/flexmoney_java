@@ -13,7 +13,7 @@ public class StartApplication {
     @GetMapping("/")
     public String index(final Model model) {
         model.addAttribute("title", "WELL COME To Flexmoney Technologies");
-        model.addAttribute("title", "WELL COME To Flexmoney Technologies");
+        model.addAttribute("msg", "WELL COME To Flexmoney Technologies");
         return "index";
     }
 
